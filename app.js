@@ -19,12 +19,15 @@ const conn = mysql.createConnection({
   // user: "newuser",
   // password: "password",
   // database: "mla"
-
-  host: "127.0.0.1",
-  user: "root",
-  password: "",
-  database: "mla",
-  port: 3306
+  host: "sql148.main-hosting.eu",
+  user: "u882123789_kcmla",
+  password: "sS~A100+2",
+  database: "u882123789_kcmla",
+  // host: "127.0.0.1",
+  // user: "root",
+  // password: "",
+  // database: "mla",
+  // port: 3306
 
 });
 
