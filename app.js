@@ -15,14 +15,14 @@ app.use(bodyParser.json());
  
 //create database connection
 const conn = mysql.createConnection({
-  // host: "http://ec2-3-143-240-137.us-east-2.compute.amazonaws.com/",
-  // user: "newuser",
-  // password: "password",
-  // database: "mla"
-  host: "sql148.main-hosting.eu",
-  user: "u882123789_kcmla",
-  password: "sS~A100+2",
-  database: "u882123789_kcmla",
+  host: "http://ec2-3-143-240-137.us-east-2.compute.amazonaws.com/",
+  user: "newuser",
+  password: "password",
+  database: "mla"
+  // host: "sql148.main-hosting.eu",
+  // user: "u882123789_kcmla",
+  // password: "sS~A100+2",
+  // database: "u882123789_kcmla",
   // host: "127.0.0.1",
   // user: "root",
   // password: "",
